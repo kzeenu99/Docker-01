@@ -16,7 +16,7 @@ jobs:
         with:
           distribution: temurin
           java-version: '17'
-      - name: Build Maven
+      - name: Build maven
         run : mvn clean package
       - name: Start spring boot application
         run: |
