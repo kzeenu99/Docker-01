@@ -2,7 +2,7 @@ name : Springboot CI/CD
 on:
   push:
     branches:
-      - master
+      - dev
 jobs:
   build:
     runs-on: ubuntu-latest
